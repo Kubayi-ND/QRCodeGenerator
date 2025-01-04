@@ -1,0 +1,108 @@
+/* Header*/
+html
+{
+    padding: 1rem;
+    max-width: 435px;
+}
+h4
+{
+    margin-left: 5px;
+    padding-top: 5px;
+}
+/*Body General styling */ 
+div
+{
+    font-family: sans-serif;
+}
+
+
+/*text area styling*/
+input
+{
+    height: 35px;
+    width: 400px;
+    border-radius: 8px;
+}
+
+/*Butto styling */
+button#btnGenerate, button#btnDownload
+{
+    margin: 5px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid grey ;
+    font-weight: bold;
+}
+
+button#btnGenerate:hover 
+{
+    background-color:rgb(172, 141, 201);
+}
+
+button#btnDownload:hover 
+{
+    background-color:rgb(172, 141, 201);
+
+}
+button#btnGenerate:active
+{
+    color: white;
+    
+}
+
+button#btnDownload:active
+{
+    color: white;
+    
+}
+div.body
+{
+    height: 100vh;
+}
+
+/*Qr code preview section*/
+div.card
+{
+    width: 350px;  
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+    background: #2a354f;
+    color: white;  
+}
+
+h3.preview
+{
+    text-align: center;
+}
+
+div.code
+{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+#qrcode
+{
+    margin-bottom:  5px;
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 8px;
+    background-color: white;
+    padding-left: 8px;
+}
+
+
+
+/* Footer */
+footer
+{
+    margin: 50px 5px;
+    height: 100vh;
+}
+
+footer a
+{
+    text-decoration: none;
+    font-weight:500;
+}
