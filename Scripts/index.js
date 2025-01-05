@@ -57,7 +57,7 @@ function downloadCode() {
       // Create an invisible anchor element to trigger the download
       const downloadLink = document.createElement("a");
       downloadLink.href = cardImage;
-      downloadLink.download = "qr-card.png"; // Filename for the download
+      downloadLink.download = "QRCord.png"; // Filename for the download
 
       // Trigger the download
       downloadLink.click();
