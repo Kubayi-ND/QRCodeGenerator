@@ -21,7 +21,7 @@ div
 input
 {
     height: 35px;
-    width: 350px;
+    width: 400px;
     border-radius: 8px;
 }
 
@@ -59,12 +59,14 @@ button#btnDownload:active
 div.body
 {
     height: 100vh;
+
 }
 
 /*Qr code preview section*/
 div.card
 {
-    width: 350px;  
+    width: 350px; 
+     height: 350px;
     border-radius: 8px;
     padding: 8px;
     text-align: center;
